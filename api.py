@@ -13,7 +13,7 @@ def get_orders():
     if "orderNumber" not in data:
         return jsonify({"error": "Missing orderNumber"}), 400
     
-     order_number = data["orderNumber"]
+    order_number = data["orderNumber"]
     if order_number in orders_db:
         order = orders_db.get(order_number)
     
@@ -21,3 +21,11 @@ def get_orders():
             "order_number": order.order_number,
             "customer_name": order.customer_name,
             "order_date": order.order_date,
+            "total_amount": order.total_amount,
+            "status": order.status,
+            "shipping_address": order.shipping_address
+        })
+    return jsonify({"error": "Order not found"}), 404
+    
+if __name__ == "__main__":
+    app.run(debug=True)
