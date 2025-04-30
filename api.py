@@ -12,3 +12,12 @@ def get_orders():
     
     if "orderNumber" not in data:
         return jsonify({"error": "Missing orderNumber"}), 400
+    
+     order_number = data["orderNumber"]
+    if order_number in orders_db:
+        order = orders_db.get(order_number)
+    
+        return jsonify({
+            "order_number": order.order_number,
+            "customer_name": order.customer_name,
+            "order_date": order.order_date,
