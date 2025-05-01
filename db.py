@@ -20,3 +20,9 @@ class Order:
             {"product": "Laptop", "quantity": 1, "price": 999.99},
             {"product": "Mouse", "quantity": 1, "price": 29.99}
         ],
+
+        total_amount=1029.98,
+        order_date=datetime(2024, 3, 15, 14, 30),
+        status="Delivered",
+        shipping_address="123 Main St, New York, NY 10001"
+    ),
