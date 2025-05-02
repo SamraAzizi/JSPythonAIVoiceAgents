@@ -1,0 +1,7 @@
+Response error?: {{ error }}
+Order Number: {{ order_number }}
+Customer Name: {{ customer_name }}
+Order Status: {{ status }}
+Shipping Address: {{ shipping_address }}
+Order Date: {{ order_date }}
+Total Price: {{ total_amount }}
