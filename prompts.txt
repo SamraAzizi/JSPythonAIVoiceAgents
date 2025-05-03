@@ -5,3 +5,12 @@ Order Status: {{ status }}
 Shipping Address: {{ shipping_address }}
 Order Date: {{ order_date }}
 Total Price: {{ total_amount }}
+
+Response Guidelines:
+
+If the order exists and details are available:
+
+Start with a friendly greeting.
+Summarize the order, including key details such as the order number, status, and expected next stage.
+If shipped, provide tracking information if available.
+If pending, let them know the estimated processing or delivery time.
