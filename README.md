@@ -12,3 +12,27 @@ An experimental project that integrates JavaScript, Python, and AI to create int
 
 ## 📁 Project Structure
 
+JSPythonAIVoiceAgents/
+├── frontend/ # HTML, CSS, JS/TS frontend code
+├── api.py # Python FastAPI/Flask backend (handles AI requests)
+├── db.py # Simple database handler or memory store
+├── prompts.txt # Sample prompts or memory context
+├── requirements.txt # Python dependencies
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- Node.js (optional, for TypeScript build or frontend dev)
+- A virtual environment (recommended)
+
+### Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/SamraAzizi/JSPythonAIVoiceAgents.git
+cd JSPythonAIVoiceAgents
+```
