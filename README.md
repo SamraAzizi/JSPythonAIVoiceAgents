@@ -12,7 +12,12 @@ An experimental project that integrates JavaScript, Python, and AI to create int
 
 ##  Project Structure
 
-JSPythonAIVoiceAgents/ ├── frontend/ # HTML, CSS, JS/TS frontend code ├── api.py # Python FastAPI/Flask backend (handles AI requests) ├── db.py # Simple database handler or memory store ├── prompts.txt # Sample prompts or memory context ├── requirements.txt # Python dependencies
+JSPythonAIVoiceAgents/
+├── frontend/ # HTML, CSS, JS/TS frontend code
+├── api.py # Python FastAPI/Flask backend (handles AI requests)
+├── db.py # Simple database handler or memory store
+├── prompts.txt # Sample prompts or memory context
+├── requirements.txt # Python dependencies
 
 
 ##  Getting Started
