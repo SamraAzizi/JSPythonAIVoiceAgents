@@ -2,7 +2,7 @@
 
 An experimental project that integrates JavaScript, Python, and AI to create interactive voice agents. This project showcases the use of frontend technologies for voice input/output and backend AI processing using Python, making it possible to build voice-based AI applications for the web.
 
-## 🧠 Features
+##  Features
 
 - Voice interaction using Web APIs
 - Backend integration with AI models (e.g., LLMs)
@@ -10,17 +10,12 @@ An experimental project that integrates JavaScript, Python, and AI to create int
 - Simple UI using HTML/CSS/JS/TypeScript
 - API endpoints for handling voice and prompt data
 
-## 📁 Project Structure
+##  Project Structure
 
-JSPythonAIVoiceAgents/
-├── frontend/ # HTML, CSS, JS/TS frontend code
-├── api.py # Python FastAPI/Flask backend (handles AI requests)
-├── db.py # Simple database handler or memory store
-├── prompts.txt # Sample prompts or memory context
-├── requirements.txt # Python dependencies
+JSPythonAIVoiceAgents/ ├── frontend/ # HTML, CSS, JS/TS frontend code ├── api.py # Python FastAPI/Flask backend (handles AI requests) ├── db.py # Simple database handler or memory store ├── prompts.txt # Sample prompts or memory context ├── requirements.txt # Python dependencies
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
