@@ -59,3 +59,15 @@ Open frontend/index.html in your browser (or serve it using a local server like 
 
 
 ### Tech Stack
+- Frontend: HTML, CSS, JavaScript, TypeScript
+- Backend: Python (FastAPI or Flask)
+- Voice APIs: Web Speech API (SpeechRecognition + SpeechSynthesis)
+- AI Models: Can be integrated via OpenAI, Hugging Face, or local LLMs
+
+### Usage
+
+- Click the "Speak" button on the frontend to record your voice.
+- The voice is transcribed and sent to the backend.
+- The backend generates a response using an AI model.
+- The response is spoken aloud using the browser's SpeechSynthesis API.
+
