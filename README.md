@@ -36,3 +36,26 @@ JSPythonAIVoiceAgents/
 git clone https://github.com/SamraAzizi/JSPythonAIVoiceAgents.git
 cd JSPythonAIVoiceAgents
 ```
+
+2. **Create and activate a virtual environment**
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. **Install Python Dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+4. **Run the backend**
+```bash
+
+python api.py
+```
+
+5. **Open the frontend**
+Open frontend/index.html in your browser (or serve it using a local server like Live Server in VS Code).
+
+
+### Tech Stack
